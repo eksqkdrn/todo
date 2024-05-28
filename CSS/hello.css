@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: FSK;
+}
+
+@font-face {
+  font-family: FSK;
+  src: url(NotoSansKR-VariableFont_wght.ttf);
+}
+
+header {
+  padding: 14px 40px;
+  background-color: #043559;
+  width: 1920px;
+  height: 98px;
+}
+
+.name {
+  margin: 0px 0px 0px 48px;
+  font-size: 48px;
+  color: white;
+}
+
+.character {
+  margin: 0px 40px 0px 1150px;
+  font-size: 36px;
+  color: white;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.hobby {
+  font-size: 36px;
+  color: white;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.gpgp {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  background-color: #1f4f73;
+  border-radius: 500px;
+  width: 480px;
+  height: 480px;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+  color: #043559;
+  font-size: 58px;
+  margin: 0px 0px 20px 0px;
+}
+
+.introduce {
+  display: flex;
+  justify-content: center;
+  color: #8aa2b3;
+  font-size: 40px;
+}
+
+.resolution {
+  display: flex;
+  justify-content: center;
+  color: #8aa2b3;
+  font-size: 40px;
+}
+
+.all {
+  padding: 70px 0px 0px 0px;
+}
+
+.img {
+  position: relative;
+  left: 10%;
+  top: 10%;
+}

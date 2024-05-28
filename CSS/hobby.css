@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: FSK;
+}
+
+@font-face {
+  font-family: FSK;
+  src: url(NotoSansKR-VariableFont_wght.ttf);
+}
+
+header {
+  padding: 14px 40px;
+  background-color: #043559;
+  width: 1920px;
+  height: 98px;
+}
+
+.home {
+  text-decoration-line: none;
+  font-weight: bold;
+  position: relative;
+  left: 76%;
+  font-size: 48px;
+  color: white;
+}
+
+.name {
+  margin: 0px 0px 0px 48px;
+  font-size: 48px;
+  color: white;
+}
+
+.dance {
+  position: relative;
+  left: 12%;
+  top: 20px;
+}
+
+.music {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 18%;
+  bottom: 86px;
+}
+
+.art {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 22%;
+  bottom: 86px;
+}
+
+.text {
+  color: #043559;
+  font-size: 48px;
+}
+
+.kd {
+  position: relative;
+  left: 15%;
+  top: 18px;
+}
+
+.listen {
+  position: relative;
+  left: 34%;
+  top: 18px;
+}
+
+.skill {
+  position: relative;
+  left: 52%;
+  top: 18px;
+}
