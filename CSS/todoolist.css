@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 동글이;
+  src: url(ChosunGu.TTF);
+}
+
+header {
+  padding: 24px 40px;
+  background-color: #ff8d25;
+  width: 1920px;
+  height: 118px;
+}
+
+header > h1 {
+  font-size: 48px;
+  color: white;
+}
+
+main > div.todo {
+  padding: 24px 32px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  width: 1840px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+main {
+  padding: 40px;
+}
+
+.todo_name {
+  font-size: 32px;
+}
+.todo_content {
+  font-size: 24px;
+  color: #777;
+  white-space: nowrap;
+}
+.todo_checkbox {
+  margin: 32px 24px 32px 0px;
+  width: 36px;
+  height: 36px;
+  accent-color: #ff8d25;
+}
+
+.todo {
+  margin: 0px 0px 24px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  size: 52px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addition {
+  margin: 262px 60px 20px 1740px;
+  background-color: #ff8d25;
+  width: 84px;
+  height: 84px;
+  border-radius: 50px;
+}
+
+.text {
+  margin: 12px 0px 0px 0px;
+}
+
+.plus {
+  font-family: 동글이;
+  width: 49px;
+  height: 49px;
+  font-size: 84px;
+  color: white;
+  position: relative;
+  left: 10%;
+  bottom: 16%;
+  text-decoration-line: none;
+}
