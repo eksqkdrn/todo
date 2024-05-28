@@ -85,6 +85,7 @@ main {
   font-size: 84px;
   color: white;
   position: relative;
-  left: 16px;
-  top: 2px;
+  left: 10%;
+  bottom: 16%;
+  text-decoration-line: none;
 }
