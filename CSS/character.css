@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: FSK;
+}
+
+@font-face {
+  font-family: FSK;
+  src: url(NotoSansKR-VariableFont_wght.ttf);
+}
+
+header {
+  padding: 14px 40px;
+  background-color: #043559;
+  width: 1920px;
+  height: 98px;
+}
+
+.home {
+  text-decoration-line: none;
+  font-weight: bold;
+  position: relative;
+  left: 68%;
+  font-size: 48px;
+  color: white;
+}
+
+.name {
+  margin: 0px 0px 0px 48px;
+  font-size: 48px;
+  color: white;
+}
+
+.img {
+  margin: 100px 80px 100px 200px;
+  width: 400px;
+  height: 600px;
+}
+
+.line {
+  border: 0.1px solid #000;
+  height: 58%;
+  left: 46%;
+  position: absolute;
+  bottom: 20%;
+}
+
+.text {
+  line-height: 235%;
+  position: absolute;
+  left: 58%;
+  bottom: 20%;
+  font-size: 48px;
+}
